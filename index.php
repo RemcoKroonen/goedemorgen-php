@@ -11,8 +11,21 @@
 	$time = date("H: i: s");
 	//$datum = ("")
 	echo "$time";
-	if () {
+	if ($time < 12) {
 		# code...
+		echo "goede morgen";
+	}
+	elseif (12 < 18) {
+		# code...
+		echo "goede middag";
+	}
+	elseif (18 < 0) {
+		# code...
+		echo "goede avond";
+	}
+	elseif (0 < 6) {
+		# code...
+		echo "goede nacht";
 	}
 
 

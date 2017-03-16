@@ -13,33 +13,30 @@
 	//$datum = ("")
 	if ($time < 6) {
 		# code...
-		echo "Het is nu: $time";
-		echo "goede nacht";
+		echo "Het is nu: $time <br> goede nacht!";
+		//echo "goede nacht!";
+		echo "<img src='img/night.png'>";
 	}
 	elseif ($time < 12) {
 		# code...
-		echo "Het is nu: $time";
-		echo "goede morgen";
-		echo '<link rel="image" type="text/css" href="img/morning.png"></head>';
+		echo "Het is nu: $time <br> goede morgen!";
+		//echo "goede morgen!";
+		echo "<img src='img/morning.png'>";
 		
 		
 	}
 	elseif ($time < 18) {
 		# code...
-		echo "Het is nu: $time";
-		echo "goede middag";
+		echo "Het is nu: $time <br> goede middag!";
+		echo "<img src='img/afternoon.png'>";
+		//echo "goede middag!";
 	}
 	else {
 		# code...
-		echo "Het is nu: $time";
-		echo "goede avond";
+		echo "Het is nu: $time <br> goede avond!";
+		echo "<img src='img/evening.png'>";
+		//echo "goede avond!";
 	}
-	/*if ($time < 6) {
-		# code...
-		echo "$time";
-		echo "goede nacht";
-	}*/
-
 
 
 

@@ -8,32 +8,37 @@
 	<?php
 	date_default_timezone_set('Europe/Amsterdam');
 
-	$time = date("H: i");
+	$time = date("H:i");
 	
 	//$datum = ("")
-	if ($time < 12) {
+	if ($time < 6) {
 		# code...
-		echo "$time";
+		echo "Het is nu: $time";
+		echo "goede nacht";
+	}
+	elseif ($time < 12) {
+		# code...
+		echo "Het is nu: $time";
 		echo "goede morgen";
 		echo '<link rel="image" type="text/css" href="img/morning.png"></head>';
 		
 		
 	}
-	elseif (12 < 18) {
+	elseif ($time < 18) {
 		# code...
-		echo "$time";
+		echo "Het is nu: $time";
 		echo "goede middag";
 	}
-	elseif (18 < 0) {
+	else {
 		# code...
-		echo "$time";
+		echo "Het is nu: $time";
 		echo "goede avond";
 	}
-	elseif (0 < 6) {
+	/*if ($time < 6) {
 		# code...
 		echo "$time";
 		echo "goede nacht";
-	}
+	}*/
 
 
 

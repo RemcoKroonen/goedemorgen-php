@@ -15,26 +15,26 @@
 		# code...
 		echo "Het is nu: $time <br> goede nacht!";
 		//echo "goede nacht!";
-		echo "<img src='img/night.png'>";
+		echo "<style>body{background-image: url('img/night.png');}</style>";
 	}
 	elseif ($time < 12) {
 		# code...
 		echo "Het is nu: $time <br> goede morgen!";
 		//echo "goede morgen!";
-		echo "<img src='img/morning.png'>";
+		echo "<style>body{background-image: url('img/morning.png');}</style>";
 		
 		
 	}
 	elseif ($time < 18) {
 		# code...
 		echo "Het is nu: $time <br> goede middag!";
-		echo "<img src='img/afternoon.png'>";
+		echo "<style>body{background-image: url('img/afternoon.png');}</style>";
 		//echo "goede middag!";
 	}
 	else {
 		# code...
 		echo "Het is nu: $time <br> goede avond!";
-		echo "<img src='img/evening.png'>";
+		echo "<style>body{background-image: url('img/evening.png');}</style>";
 		//echo "goede avond!";
 	}
 

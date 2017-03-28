@@ -1,3 +1,26 @@
-echo{
+*{
+	margin: 0px;
+	padding: 0px;
+}
 
+body{
+	text-align: center;
+	margin-top: ;
+}
+
+
+h1, p{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    top: 39%;
+    font-size: 80px;
+}
+p{
+    top: 50%;
+    font-size: 40px;
 }

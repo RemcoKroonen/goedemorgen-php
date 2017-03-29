@@ -14,14 +14,14 @@
 	//$datum = ("")
 		if ($time < 6) {
 		# code...
-			echo  "Het is nu: $time";
-			echo "goede nacht!";
+			echo  "<h1>Het is nu: $time</h1><p>goede nacht!</p>";
+			//echo "goede nacht!";
 			echo "<style>body{background-image: url('img/night.png');}</style>";
 		}
 		elseif ($time < 12) {
 		# code...
-			echo "Het is nu: $time";
-			echo "goede morgen!";
+			echo "<h1>Het is nu: $time</h1><p>goede morgen!</p>";
+			//echo "goede morgen!";
 			echo "<style>body{background-image: url('img/morning.png');}</style>";
 
 
@@ -34,9 +34,9 @@
 		}
 		else {
 		# code...
-			echo "Het is nu: $time";
+			echo "<h1>Het is nu: $time</h1><p>goede avond!</p>";
 			echo "<style>body{background-image: url('img/evening.png');}</style>";
-			echo "goede avond!";
+			//echo "goede avond!";
 		}
 		?>
 </body>
